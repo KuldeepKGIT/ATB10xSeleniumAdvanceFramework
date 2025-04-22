@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="G:/ATB10xSeleniumAdvanceFramework/src/test/java/com/kuldeepkumar290497/tests/pom/vwo/TestVWOLogin_02_PropertiesReader_POM.java">
+        <classes>
+            <class name="com.kuldeepkumar290497.tests.pom.vwo.TestVWOLogin_02_PropertiesReader_POM">
+                <methods>
+                    <include name="LoginVWO_NegativeTest"/>
+                    <include name="LoginVWO_PositiveTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
