@@ -1,4 +1,4 @@
-package com.kuldeepkumar290497.pages.pageObjectModel.appvwo;
+package com.kuldeepkumar290497.pages.pageObjectModel.appvwo.normal_pom;
 
 import com.kuldeepkumar290497.utils.waitHelpers;
 import org.openqa.selenium.By;

@@ -7,14 +7,14 @@ import org.openqa.selenium.WebDriver;
 
 import static com.kuldeepkumar290497.driver.DriverManager.getDriver;
 
-public class LoginPage extends CommonToAll {
+public class LoginPageIM extends CommonToAll {
 
     //Page class
-//    WebDriver driver;
-//
-//        public LoginPage(WebDriver driver){
-//            this.driver = driver;
-//        }
+    WebDriver driver;
+
+        public LoginPageIM(WebDriver driver){
+            this.driver = driver;
+        }
 //Page Locators
 
     private By username = By.id("login-username");
