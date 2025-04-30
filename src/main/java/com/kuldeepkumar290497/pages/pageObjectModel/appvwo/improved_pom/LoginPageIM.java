@@ -12,6 +12,8 @@ public class LoginPageIM extends CommonToAll {
     //Page class
     WebDriver driver;
 
+
+
         public LoginPageIM(WebDriver driver){
             this.driver = driver;
         }

@@ -29,7 +29,7 @@ public class LoginPage_PF extends CommonToAll {
 
     // Page Actions
     public String loginToVWOInvalidCreds() {
-        openVWOUrl();
+//        openVWOUrl();
         enterInput(username, PropertiesReader.readKey("invalid_username"));
         enterInput(password, PropertiesReader.readKey("invalid_password"));
         clickElement(signButton);

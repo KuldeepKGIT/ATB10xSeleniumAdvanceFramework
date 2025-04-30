@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.kuldeepkumar290497.listners.RetryListener"></listener>
+        <listener class-name="com.kuldeepkumar290497.listners.ScreenshotListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="G:/ATB10xSeleniumAdvanceFramework/src/test/java/com/kuldeepkumar290497/tests/pom/vwo/TestVWOLogin_02_PropertiesReader_POM.java">
+        <classes>
+            <class name="com.kuldeepkumar290497.tests.pom.vwo.TestVWO_retry">
+            </class>
+        </classes>
+    </test>
+</suite>

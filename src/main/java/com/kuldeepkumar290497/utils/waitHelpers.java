@@ -48,6 +48,9 @@ public class waitHelpers {
     public static WebElement visibilityOfElement(By elementLocation) {
         return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
     }
+    public static WebElement visibilityOfElement(WebElement elementLocation) {
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf(elementLocation));
+    }
 
     public static WebElement checkVisibilityByFluentWait(WebDriver driver, By locator) {
         FluentWait<WebDriver> wait = new FluentWait<>(driver)

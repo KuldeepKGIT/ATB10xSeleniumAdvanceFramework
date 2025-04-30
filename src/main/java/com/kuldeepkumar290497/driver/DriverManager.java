@@ -16,9 +16,9 @@ public class DriverManager {
         return driver;
     }
 
-////    public static void setDriver(WebDriver driver) {
-////        DriverManager.driver = driver;
-//    }
+    public static void setDriver(WebDriver driver) {
+        DriverManager.driver = driver;
+    }
 
     // We want to start the browser
     public static void init() {
