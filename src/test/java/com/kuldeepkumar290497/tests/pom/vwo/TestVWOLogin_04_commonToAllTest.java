@@ -2,8 +2,8 @@ package com.kuldeepkumar290497.tests.pom.vwo;
 
 import com.kuldeepkumar290497.base.CommonToAllTest;
 import com.kuldeepkumar290497.driver.DriverManager;
-import com.kuldeepkumar290497.pages.pageObjectModel.appvwo.improved_pom.DashboardPage;
-import com.kuldeepkumar290497.pages.pageObjectModel.appvwo.improved_pom.LoginPageIM;
+import com.kuldeepkumar290497.pages.pageObjectModel.appVwo.improvedPOM.DashboardPage;
+import com.kuldeepkumar290497.pages.pageObjectModel.appVwo.improvedPOM.LoginPageIM;
 import com.kuldeepkumar290497.utils.PropertiesReader;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;

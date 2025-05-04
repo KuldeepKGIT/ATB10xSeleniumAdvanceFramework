@@ -15,7 +15,7 @@ import java.util.function.Function;
 import static com.kuldeepkumar290497.driver.DriverManager.getDriver;
 
 
-public class waitHelpers {
+public class WaitHelper {
     public static void waitJVM(int time){
         try {
             Thread.sleep(time);

@@ -1,7 +1,7 @@
-package com.kuldeepkumar290497.pages.pageObjectModel.appvwo.improved_pom;
+package com.kuldeepkumar290497.pages.pageObjectModel.appVwo.improvedPOM;
 
 import com.kuldeepkumar290497.base.CommonToAll;
-import com.kuldeepkumar290497.utils.waitHelpers;
+import com.kuldeepkumar290497.utils.WaitHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -19,18 +19,18 @@ public class LoginPageIM extends CommonToAll {
         }
 //Page Locators
 
-    private By username = By.id("login-username");
-    private By password = By.id("login-password");
-    private By signButton = By.id("js-login-btn");
-    private By error_message = By.id("js-notification-box-msg");
+    private final By username = By.id("login-username");
+    private final By password = By.id("login-password");
+    private final By signButton = By.id("js-login-btn");
+    private final By errorMessage = By.id("js-notification-box-msg");
 
     public String loginToVWOLoginInvalidCreds(String user, String pwd){
         openVWOUrl();
         enterInput(username,user);
         enterInput(password,pwd);
         clickElement(signButton);
-        waitHelpers.checkVisibility(getDriver(),error_message);
-        return getText(error_message);
+        WaitHelper.checkVisibility(getDriver(), errorMessage);
+        return getText(errorMessage);
     }
     public void loginToVWOLoginValidCreds(String user, String pwd) {
         openVWOUrl();

@@ -1,12 +1,11 @@
 package com.kuldeepkumar290497.pages.pageFactory.appvwo;
 
 import com.kuldeepkumar290497.base.CommonToAll;
-import com.kuldeepkumar290497.utils.waitHelpers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import static com.kuldeepkumar290497.utils.waitHelpers.visibilityOfElement;
+import static com.kuldeepkumar290497.utils.WaitHelper.visibilityOfElement;
 
 public class DashBoard_PF extends CommonToAll {
     WebDriver driver;

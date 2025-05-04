@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import static com.kuldeepkumar290497.driver.DriverManager.getDriver;
 
+
 public class CommonToAll {
     public CommonToAll(){
 // If you want to call something before every Page Object Class call, Put your Code here");

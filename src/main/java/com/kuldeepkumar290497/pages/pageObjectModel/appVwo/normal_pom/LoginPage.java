@@ -1,10 +1,10 @@
-package com.kuldeepkumar290497.pages.pageObjectModel.appvwo.normal_pom;
+package com.kuldeepkumar290497.pages.pageObjectModel.appVwo.normal_pom;
 
-import com.kuldeepkumar290497.utils.waitHelpers;
+import com.kuldeepkumar290497.utils.WaitHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static com.kuldeepkumar290497.utils.waitHelpers.waitJVM;
+import static com.kuldeepkumar290497.utils.WaitHelper.waitJVM;
 
 //page class
 public class LoginPage {
@@ -28,7 +28,7 @@ public class LoginPage {
         driver.findElement(password).sendKeys(pwd);
         driver.findElement(signButton).click();
 
-        waitHelpers.checkVisibility(driver,error_message);
+        WaitHelper.checkVisibility(driver,error_message);
 
         String Error_message_txt = driver.findElement(error_message).getText();
         return Error_message_txt;

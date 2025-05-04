@@ -1,6 +1,6 @@
-package com.kuldeepkumar290497.pages.pageObjectModel.appvwo.normal_pom;
+package com.kuldeepkumar290497.pages.pageObjectModel.appVwo.normal_pom;
 
-import com.kuldeepkumar290497.utils.waitHelpers;
+import com.kuldeepkumar290497.utils.WaitHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -13,7 +13,7 @@ public class DashBoardPage {
     private By userNameOnDashboard = By.cssSelector("[data-qa=\"lufexuloga\"]");
 
     public String loggedInUsername(){
-        waitHelpers.checkVisibility(driver,userNameOnDashboard);
+        WaitHelper.checkVisibility(driver,userNameOnDashboard);
         return driver.findElement(userNameOnDashboard).getText();
     }
 }

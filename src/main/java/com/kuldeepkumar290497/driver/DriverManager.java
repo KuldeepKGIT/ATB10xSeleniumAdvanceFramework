@@ -13,10 +13,12 @@ public class DriverManager {
     public static WebDriver driver;
 
     public static WebDriver getDriver() {
+
         return driver;
     }
 
     public static void setDriver(WebDriver driver) {
+
         DriverManager.driver = driver;
     }
 

@@ -1,7 +1,7 @@
-package com.kuldeepkumar290497.pages.pageObjectModel.appvwo.improved_pom;
+package com.kuldeepkumar290497.pages.pageObjectModel.appVwo.improvedPOM;
 
 import com.kuldeepkumar290497.base.CommonToAll;
-import com.kuldeepkumar290497.utils.waitHelpers;
+import com.kuldeepkumar290497.utils.WaitHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,7 +14,7 @@ public class DashboardPage extends CommonToAll {
     private By userNameOnDashboard = By.cssSelector("[data-qa=\"lufexuloga\"]");
 
     public String loggedInUsername(){
-        waitHelpers.visibilityOfElement(userNameOnDashboard);
+        WaitHelper.visibilityOfElement(userNameOnDashboard);
         return getText(userNameOnDashboard);
 
     }
